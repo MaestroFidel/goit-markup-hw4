@@ -82,10 +82,20 @@ ul {
 .adress {
   margin-left: auto;
 }
+.index {
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
 .current {
   position: relative;
   color: #404bbf;
 }
+
 .current::after {
   content: "";
   position: absolute;
@@ -108,15 +118,6 @@ ul {
   color: #2e2f42;
 }
 
-.navigator a {
-  cursor: pointer;
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
 .navigator a:hover {
   color: #4d5ae5;
 }
